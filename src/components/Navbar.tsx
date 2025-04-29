@@ -14,23 +14,27 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="font-bold text-2xl text-pingup-purple">
-              WealthPilot
+            <a href="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/7c6274cd-4d02-4c59-9385-9fdb2eb031c8.png" 
+                alt="Ping Up Logo" 
+                className="h-8 md:h-10" 
+              />
             </a>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#how-it-works" className="text-foreground hover:text-pingup-purple transition-colors">
+            <a href="#how-it-works" className="text-foreground hover:text-pingup-pink transition-colors">
               How It Works
             </a>
-            <a href="#features" className="text-foreground hover:text-pingup-purple transition-colors">
+            <a href="#features" className="text-foreground hover:text-pingup-pink transition-colors">
               Services
             </a>
-            <a href="#about" className="text-foreground hover:text-pingup-purple transition-colors">
+            <a href="#about" className="text-foreground hover:text-pingup-pink transition-colors">
               About
             </a>
-            <a href="/resources" className="text-foreground hover:text-pingup-purple transition-colors">
+            <a href="/resources" className="text-foreground hover:text-pingup-pink transition-colors">
               Resources
             </a>
             <Button className="pingup-button">
@@ -56,28 +60,28 @@ const Navbar = () => {
             <div className="flex flex-col space-y-4">
               <a 
                 href="#how-it-works" 
-                className="text-foreground hover:text-pingup-purple transition-colors px-2 py-1"
+                className="text-foreground hover:text-pingup-pink transition-colors px-2 py-1"
                 onClick={toggleMenu}
               >
                 How It Works
               </a>
               <a 
                 href="#features" 
-                className="text-foreground hover:text-pingup-purple transition-colors px-2 py-1"
+                className="text-foreground hover:text-pingup-pink transition-colors px-2 py-1"
                 onClick={toggleMenu}
               >
                 Services
               </a>
               <a 
                 href="#about" 
-                className="text-foreground hover:text-pingup-purple transition-colors px-2 py-1"
+                className="text-foreground hover:text-pingup-pink transition-colors px-2 py-1"
                 onClick={toggleMenu}
               >
                 About
               </a>
               <a 
                 href="/resources" 
-                className="text-foreground hover:text-pingup-purple transition-colors px-2 py-1"
+                className="text-foreground hover:text-pingup-pink transition-colors px-2 py-1"
                 onClick={toggleMenu}
               >
                 Resources

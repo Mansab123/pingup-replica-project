@@ -22,7 +22,7 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section className="bg-pingup-purple py-16">
+    <section className="bg-gradient-to-r from-pingup-pink to-pingup-orange py-16">
       <div className="section-container">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {stats.map((stat, index) => (

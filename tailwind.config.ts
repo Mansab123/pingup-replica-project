@@ -64,9 +64,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				pingup: {
-					purple: '#9b87f5',
-					'dark-purple': '#7E69AB',
-					'light-purple': '#E5DEFF',
+					pink: '#E5417C',
+					orange: '#F97316',
+					gradient: 'linear-gradient(90deg, #E5417C 0%, #F97316 100%)',
+					'light-pink': '#FCE7F3',
+					'soft-orange': '#FFEDD5',
 					'soft-blue': '#D3E4FD',
 					'soft-green': '#F2FCE2'
 				}

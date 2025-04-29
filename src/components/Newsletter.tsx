@@ -13,7 +13,7 @@ const Newsletter = () => {
   return (
     <section className="bg-white py-20">
       <div className="section-container max-w-4xl">
-        <div className="bg-gradient-to-r from-pingup-light-purple to-pingup-soft-blue rounded-3xl p-8 md:p-12">
+        <div className="bg-gradient-to-r from-pingup-light-pink to-pingup-soft-orange rounded-3xl p-8 md:p-12">
           <div className="text-center mb-8">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Financial Insights Delivered</h2>
             <p className="text-muted-foreground max-w-xl mx-auto">

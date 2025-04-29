@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 260 10% 15%;
 
-    --primary: 255 80% 75%;
+    --primary: 334 76% 57%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 260 30% 96%;
@@ -33,7 +33,7 @@
 
     --border: 260 30% 92%;
     --input: 260 30% 92%;
-    --ring: 255 80% 75%;
+    --ring: 334 76% 57%;
 
     --radius: 1rem;
   }
@@ -50,7 +50,7 @@
 
 @layer components {
   .pingup-button {
-    @apply bg-pingup-purple text-white hover:bg-pingup-dark-purple font-medium px-6 py-3 rounded-full transition-all duration-300 shadow-md hover:shadow-lg;
+    @apply bg-gradient-to-r from-pingup-pink to-pingup-orange text-white font-medium px-6 py-3 rounded-full transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105;
   }
   
   .section-container {
