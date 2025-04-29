@@ -15,9 +15,9 @@ const Newsletter = () => {
       <div className="section-container max-w-4xl">
         <div className="bg-gradient-to-r from-pingup-light-purple to-pingup-soft-blue rounded-3xl p-8 md:p-12">
           <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">Stay in the Loop</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">Financial Insights Delivered</h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              Get early access, tips for meaningful connections, and updates on new features.
+              Get expert financial tips, market updates, and exclusive investment opportunities directly in your inbox.
             </p>
           </div>
           

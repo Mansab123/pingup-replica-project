@@ -15,7 +15,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="font-bold text-2xl text-pingup-purple">
-              pingup
+              WealthPilot
             </a>
           </div>
 
@@ -25,10 +25,13 @@ const Navbar = () => {
               How It Works
             </a>
             <a href="#features" className="text-foreground hover:text-pingup-purple transition-colors">
-              Features
+              Services
             </a>
             <a href="#about" className="text-foreground hover:text-pingup-purple transition-colors">
               About
+            </a>
+            <a href="/resources" className="text-foreground hover:text-pingup-purple transition-colors">
+              Resources
             </a>
             <Button className="pingup-button">
               Get Started
@@ -63,7 +66,7 @@ const Navbar = () => {
                 className="text-foreground hover:text-pingup-purple transition-colors px-2 py-1"
                 onClick={toggleMenu}
               >
-                Features
+                Services
               </a>
               <a 
                 href="#about" 
@@ -71,6 +74,13 @@ const Navbar = () => {
                 onClick={toggleMenu}
               >
                 About
+              </a>
+              <a 
+                href="/resources" 
+                className="text-foreground hover:text-pingup-purple transition-colors px-2 py-1"
+                onClick={toggleMenu}
+              >
+                Resources
               </a>
               <Button className="pingup-button w-full">
                 Get Started

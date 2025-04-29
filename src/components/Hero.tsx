@@ -9,18 +9,18 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="heading-lg mb-6">
-              Check in on friends, <br />
-              <span className="text-pingup-purple">Stay connected</span>
+              Manage your wealth, <br />
+              <span className="text-pingup-purple">Secure your future</span>
             </h1>
             <p className="text-lg mb-8 text-muted-foreground max-w-lg">
-              Pingup helps you build meaningful connections by making it easy to check in on friends and loved ones regularly.
+              WealthPilot helps you build and manage your financial portfolio with smart tools and personalized guidance.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Button className="pingup-button">
-                Get Started Free
+                Start Investing
               </Button>
               <Button variant="outline" className="border-pingup-purple text-pingup-purple hover:bg-pingup-light-purple">
-                Learn More
+                Book a Consultation
               </Button>
             </div>
           </div>
@@ -31,23 +31,23 @@ const Hero = () => {
               <div className="relative bg-white rounded-2xl shadow-xl p-6 z-10">
                 <div className="text-center mb-6">
                   <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-pingup-light-purple mb-4">
-                    <span className="text-pingup-purple text-2xl font-bold">👋</span>
+                    <span className="text-pingup-purple text-2xl font-bold">📈</span>
                   </div>
-                  <h3 className="text-xl font-semibold">Time to check in!</h3>
+                  <h3 className="text-xl font-semibold">Portfolio Overview</h3>
                 </div>
                 <div className="space-y-4">
                   <div className="bg-secondary p-4 rounded-lg">
-                    <p className="font-medium">How's Sarah doing today?</p>
-                    <p className="text-sm text-muted-foreground">Last ping: 7 days ago</p>
+                    <p className="font-medium">Investment Growth</p>
+                    <p className="text-sm text-muted-foreground">+8.5% this month</p>
                   </div>
                   <div className="bg-secondary p-4 rounded-lg">
-                    <p className="font-medium">Check in on Mike</p>
-                    <p className="text-sm text-muted-foreground">Last ping: 14 days ago</p>
+                    <p className="font-medium">Retirement Planning</p>
+                    <p className="text-sm text-muted-foreground">On track for 2045 goal</p>
                   </div>
                 </div>
                 <div className="mt-6">
                   <Button className="w-full pingup-button">
-                    Send a Ping
+                    View Dashboard
                   </Button>
                 </div>
               </div>

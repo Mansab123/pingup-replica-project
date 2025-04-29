@@ -3,33 +3,33 @@ import React from 'react';
 
 const features = [
   {
-    title: 'Smart Ping Reminders',
-    description: 'Get gentle reminders to check in on friends when it matters most',
-    icon: '🔔'
-  },
-  {
-    title: 'Thoughtful Prompts',
-    description: 'Never run out of meaningful things to say with our conversation starters',
-    icon: '💡'
-  },
-  {
-    title: 'Connection Insights',
-    description: 'See patterns in your relationships and get suggestions for strengthening bonds',
+    title: 'Investment Portfolio Management',
+    description: 'Track, analyze, and optimize your investments across multiple accounts',
     icon: '📊'
   },
   {
-    title: 'Private & Secure',
-    description: 'Your relationships and conversations are always private and secure',
+    title: 'Retirement Planning',
+    description: 'Calculate your retirement needs and create a personalized savings plan',
+    icon: '🏖️'
+  },
+  {
+    title: 'Tax Optimization',
+    description: 'Minimize your tax burden with intelligent investment strategies',
+    icon: '💰'
+  },
+  {
+    title: 'Secure & Encrypted',
+    description: 'Bank-level security to keep your financial information safe',
     icon: '🔒'
   },
   {
-    title: 'Cross-Platform',
-    description: 'Ping friends through their preferred messaging apps or SMS',
-    icon: '📱'
+    title: 'Financial Education',
+    description: 'Access resources to improve your financial literacy and decision-making',
+    icon: '📚'
   },
   {
-    title: 'Customizable Experience',
-    description: 'Set your own schedule and preferences for each relationship',
+    title: 'Personalized Advice',
+    description: 'Get tailored recommendations based on your goals and risk profile',
     icon: '⚙️'
   }
 ];
@@ -38,9 +38,9 @@ const Features = () => {
   return (
     <section id="features" className="bg-gray-50 py-20">
       <div className="section-container">
-        <h2 className="section-title">Features You'll Love</h2>
+        <h2 className="section-title">Features That Empower You</h2>
         <p className="section-subtitle">
-          Designed to help you nurture your most important relationships without the effort
+          Designed to help you make informed financial decisions and secure your future
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">

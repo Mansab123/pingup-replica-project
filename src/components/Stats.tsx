@@ -3,19 +3,19 @@ import React from 'react';
 
 const stats = [
   {
-    value: '15M+',
-    label: 'Pings Sent',
+    value: '$2.4B+',
+    label: 'Assets Managed',
   },
   {
-    value: '94%',
-    label: 'Stronger Relationships',
+    value: '96%',
+    label: 'Client Satisfaction',
   },
   {
-    value: '250K+',
-    label: 'Happy Users',
+    value: '320K+',
+    label: 'Active Users',
   },
   {
-    value: '4.9',
+    value: '4.8',
     label: 'App Store Rating',
   },
 ];

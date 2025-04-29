@@ -5,27 +5,27 @@ import { ArrowRight } from 'lucide-react';
 const steps = [
   {
     number: '01',
-    title: 'Add your friends',
-    description: 'Easily connect with friends and family in your pingup network',
-    icon: '👥'
+    title: 'Create your profile',
+    description: 'Set up your financial goals and risk tolerance',
+    icon: '📊'
   },
   {
     number: '02',
-    title: 'Set ping schedules',
-    description: 'Choose how often you want to be reminded to check in',
-    icon: '🗓️'
+    title: 'Connect accounts',
+    description: 'Link your financial accounts for a complete overview',
+    icon: '🔗'
   },
   {
     number: '03',
-    title: 'Send meaningful pings',
-    description: 'Get prompts to help you start thoughtful conversations',
-    icon: '💬'
+    title: 'Get personalized plans',
+    description: 'Receive custom investment strategies and recommendations',
+    icon: '📝'
   },
   {
     number: '04',
-    title: 'Stay connected',
-    description: 'Build stronger relationships through regular check-ins',
-    icon: '❤️'
+    title: 'Track & optimize',
+    description: 'Monitor performance and make adjustments as needed',
+    icon: '📈'
   }
 ];
 
@@ -33,9 +33,9 @@ const HowItWorks = () => {
   return (
     <section id="how-it-works" className="bg-white py-20">
       <div className="section-container">
-        <h2 className="section-title">How Pingup Works</h2>
+        <h2 className="section-title">How WealthPilot Works</h2>
         <p className="section-subtitle">
-          Pingup makes it easy to maintain meaningful connections with the people who matter most to you
+          Our simple four-step process helps you take control of your financial future
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
