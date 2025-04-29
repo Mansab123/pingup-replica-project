@@ -33,7 +33,7 @@ const HowItWorks = () => {
   return (
     <section id="how-it-works" className="bg-white py-20">
       <div className="section-container">
-        <h2 className="section-title">How WealthPilot Works</h2>
+        <h2 className="section-title">How Ping Up Works</h2>
         <p className="section-subtitle">
           Our simple four-step process helps you take control of your financial future
         </p>
